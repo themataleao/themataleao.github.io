@@ -10,7 +10,7 @@ interface TimelineProps {
 const Timeline: FC<TimelineProps> = ({ timelineData }) => {
   return (
     <div className="timeline">
-      <h1>My Timeline</h1>
+      <h1>Timeline</h1>
       {timelineData.map((item) => (
         <TimelineItem item={item} key={item.description} />
       ))}

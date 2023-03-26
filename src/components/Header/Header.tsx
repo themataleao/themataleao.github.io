@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import imageMarc from "../../assets/marc_willhaus.jpg";
+import imageMarc from "../../assets/marc_willhaus.png";
 import { useTheme } from "../../theme/ThemeProvider";
 import personInfo from "../../data/personInfo";
 
@@ -28,9 +28,8 @@ const Header = () => {
             <img
               src={imageMarc}
               style={{
-                width: 100,
-                height: 100,
-                borderRadius: 50,
+                width: 200,
+                height: "auto",
               }}
             ></img>
           </div>
