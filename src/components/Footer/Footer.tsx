@@ -20,7 +20,7 @@ const Footer: FC<FooterProps> = ({ responsive }) => {
       </p>
       <div>
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/themataleao"
           target="_blank"
           rel="noopener noreferrer"
           style={{ margin: "0 1rem" }}
@@ -33,7 +33,7 @@ const Footer: FC<FooterProps> = ({ responsive }) => {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/marc-willhaus-03a493108/"
           target="_blank"
           rel="noopener noreferrer"
           style={{ margin: "0 1rem" }}
