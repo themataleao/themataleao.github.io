@@ -1,0 +1,36 @@
+.fading-gradient {
+  position: relative;
+  overflow: hidden;
+}
+
+.fading-gradient-animation {
+  position: absolute;
+  background-size: 400% 400%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: gradientFade 5s infinite;
+}
+
+.fading-gradient-animation.delay-1 {
+  animation-delay: 1.67s;
+}
+
+.fading-gradient-animation.delay-2 {
+  animation-delay: 3.34s;
+}
+
+@keyframes gradientFade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,77 @@
+.timeline-bulletpoint-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.bulletpoint-connector {
+  height: 50px;
+  width: 3px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.bullet-point {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  z-index: 10;
+  border: white 2px solid;
+}
+.bullet-point:hover + .bulletpoint-connector {
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.bullet-point-start {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border: white 2px solid;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.bullet-point-start:hover + .bulletpoint-connector {
+  color: blue;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.bullet-point-start:hover {
+  transform: scale(1.5);
+  box-shadow: none none 6px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+.bullet-point:hover {
+  transform: scale(1.5);
+  box-shadow: none none 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.year {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.bullet-point:hover .year {
+  display: block;
+}
+
+.bullet-point-start:hover .year {
+  display: block;
+}
