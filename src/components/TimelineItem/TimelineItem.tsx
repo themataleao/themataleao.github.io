@@ -20,14 +20,13 @@ function TimelineItem({ item }: { item: IPropsTimelineDataItem }) {
       className="timeline-item"
       style={{
         display: "flex",
-        width: "60%",
         alignItems: "center",
         opacity: isVisible ? 1 : 0,
         transform: isVisible ? "none" : "translateY(20px)",
         transition: "opacity 0.5s, transform 0.5s",
       }}
     >
-      <div style={{ width: "10%" }}>
+      <div style={{ width: "10%", minWidth: 100 }}>
         <TimelineBulletpoint yearFrom={item.yearFrom} yearTo={item.yearTo} />
       </div>
       <div style={{ width: "80%" }}>

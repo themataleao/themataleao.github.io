@@ -3,12 +3,17 @@ import "./Main.css";
 import Timeline from "../../components/Timeline/Timeline";
 import timelineData from "../../data/timeline";
 
-const Main = () => {
+interface MainProps {
+  responsive: boolean;
+}
+
+const Main = ({ responsive }: MainProps) => {
   return (
     <div className="Main">
-      <main>
-        <Timeline timelineData={timelineData}></Timeline>
-      </main>
+      <Timeline
+        timelineData={timelineData}
+        width={responsive ? "90%" : "60%"}
+      ></Timeline>
     </div>
   );
 };

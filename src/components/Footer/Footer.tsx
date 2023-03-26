@@ -1,6 +1,10 @@
 import React, { FC } from "react";
 
-const Footer: FC = () => {
+interface FooterProps {
+  responsive: boolean;
+}
+
+const Footer: FC<FooterProps> = ({ responsive }) => {
   return (
     <footer
       style={{

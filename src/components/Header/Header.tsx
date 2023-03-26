@@ -4,7 +4,11 @@ import imageMarc from "../../assets/marc_willhaus.png";
 import { useTheme } from "../../theme/ThemeProvider";
 import personInfo from "../../data/personInfo";
 
-const Header = () => {
+interface HeaderProps {
+  responsive: boolean;
+}
+
+const Header = ({ responsive }: HeaderProps) => {
   const theme = useTheme();
   return (
     <div className="Header">
@@ -40,7 +44,7 @@ const Header = () => {
               margin: theme.margins.medium,
               alignContent: "center",
               justifyContent: "center",
-              width: "50%",
+              width: responsive ? "80%" : "50%",
             }}
           >
             <h1>Marc Willhaus</h1>
