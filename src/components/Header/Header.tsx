@@ -21,6 +21,7 @@ const Header = ({ responsive }: HeaderProps) => {
             flexDirection: "column",
             justifyContent: "center",
             flex: 1,
+            paddingTop: theme.paddings.xxlarge,
           }}
         >
           <div
@@ -41,7 +42,6 @@ const Header = ({ responsive }: HeaderProps) => {
             style={{
               display: "flex",
               flexDirection: "column",
-              margin: theme.margins.medium,
               alignContent: "center",
               justifyContent: "center",
               width: responsive ? "80%" : "50%",
