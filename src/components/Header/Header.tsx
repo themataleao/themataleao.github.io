@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import imageMarc from "../../assets/marc_willhaus.png";
+import imageMarc from "/marc_willhaus.png";
 import { useTheme } from "../../theme/ThemeProvider";
 import personInfo from "../../data/personInfo";
 
