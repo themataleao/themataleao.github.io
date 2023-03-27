@@ -2,8 +2,8 @@ import { IPropsTimelineDataItem } from "../types/global";
 
 
 const timelineData: IPropsTimelineDataItem[] = [
-  {
-    id: 1,
+{
+    id: 2,
     title: 'Head of Engineering',
     company: 'Brame',
     location: 'Zurich',
@@ -14,7 +14,7 @@ const timelineData: IPropsTimelineDataItem[] = [
     `,
   },
   {
-    id: 1,
+    id: 3,
     title: 'Software Architect',
     company: 'Brame',
     location: 'Zurich',
@@ -25,7 +25,7 @@ const timelineData: IPropsTimelineDataItem[] = [
     `,
   },
   {
-    id: 1,
+    id: 4,
     title: 'Software Engineer – Applied Machine Learning',
     company: 'Media Technology Center ETH',
     location: 'Zurich',
@@ -36,7 +36,7 @@ const timelineData: IPropsTimelineDataItem[] = [
     `,
   },
     {
-      id: 11,
+      id: 5,
       title: 'Chief Executive Officer',
       company: 'Manthano AI',
       location: 'Rapperswil',
@@ -47,7 +47,7 @@ const timelineData: IPropsTimelineDataItem[] = [
       `,
     },
     {
-      id: 2,
+      id: 6,
       title: 'Chief Technology Officer',
       company: 'Manthano AI',
       location: 'Rapperswil',
@@ -60,7 +60,7 @@ const timelineData: IPropsTimelineDataItem[] = [
       `,
     },
     {
-      id: 3,
+      id: 7,
       title: 'Chief Execution Officer',
       company: 'Willhaus & Associates AG',
       location: 'Wollerau',
@@ -71,7 +71,7 @@ const timelineData: IPropsTimelineDataItem[] = [
       `,
     },
     {
-      id: 4,
+      id: 8,
       title: 'Student Employee Distribution and Sales',
       company: 'Sensirion',
       location: 'Stäfa',
@@ -82,7 +82,7 @@ const timelineData: IPropsTimelineDataItem[] = [
       `,
     },
     {
-      id: 5,
+      id: 9,
       title: 'Sprint Week Engineer',
       company: 'Company Factory',
       location: 'Winterthur',

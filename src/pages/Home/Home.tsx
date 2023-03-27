@@ -18,9 +18,9 @@ const Home = () => {
         color2={theme.colors.gradient.second}
         color3={theme.colors.gradient.third}
       />
-      <Header responsive></Header>
-      <Main responsive></Main>
-      <Footer responsive></Footer>
+      <Header responsive={responsive}></Header>
+      <Main responsive={responsive}></Main>
+      <Footer responsive={responsive}></Footer>
     </div>
   );
 };
