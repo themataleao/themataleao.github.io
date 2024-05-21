@@ -20,7 +20,8 @@ const timelineData: IPropsTimelineDataItem[] = [
     yearFrom: "2023/Q1",
     yearTo: "2024/Q1",
     description: `
-    As the Head of Engineering, I am in charge of overseeing all elements of the software platform's development, functionality, and implementation. I ensure smooth collaboration between three separate software teams located in different regions, and maintain communication with various stakeholders from product management, product design, and executive leadership.
+
+    As the Head of Engineering, I was in charge of overseeing all elements of the software platform's development, functionality, and implementation. I ensured smooth collaboration between three separate software teams located in different regions, and maintained communication with various stakeholders from product management, product design, and executive leadership.
     `,
   },
   {
