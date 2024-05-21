@@ -4,6 +4,7 @@ import Timeline from "../../components/Timeline/Timeline";
 import timelineData from "../../data/timeline";
 import eductationData from "../../data/education";
 import educationData from "../../data/education";
+import Publications from "../Publications/Publications";
 
 interface MainProps {
   responsive: boolean;
@@ -24,6 +25,7 @@ const Main = ({ responsive }: MainProps) => {
         timelineData={educationData}
         width={responsive ? "90%" : "70%"}
       ></Timeline>
+      <Publications width={responsive ? "90%" : "70%"}></Publications>
     </div>
   );
 };
